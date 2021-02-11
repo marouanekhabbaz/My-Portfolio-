@@ -53,7 +53,7 @@ h3 {
   text-align-last: center;
 }
 p, ul , ol{
-font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: FreeMono, monospace;
 font-size: 18px; 
  }
  /* this class will be used on element that we want to display on the center */
