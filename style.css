@@ -105,6 +105,17 @@ form button {
   color: #fff;
   margin: 0 8px 10px 0;
 }
+.bottoncontact {
+  color: white;
+  height: 20px;
+  width: 20px; 
+  background-color: #4244a3;
+  border: 1px solid black;
+  margin: 15px;
+  /* padding: 5px 15px;
+  margin: 5px;
+  margin-bottom: 30px */
+} 
 footer{
   text-align: center;
   color: blanchedalmond;
@@ -144,3 +155,13 @@ footer{
     align-self: center;
   }
 }
+
+
+
+
+
+
+
+
+
+
