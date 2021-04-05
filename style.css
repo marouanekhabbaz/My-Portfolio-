@@ -120,12 +120,14 @@ footer{
   margin: 15px -10px -10px -10px;
   border: 2px solid #03045e;
    }
-   a img {
-    width: 20%;
-  }
    img {
     width: 100%;
   }
+   a img {
+    width: 20%;
+  }
+
+  
   
 @media all and (min-width: 800px) {
   header {
@@ -158,6 +160,19 @@ footer{
     align-self: center;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
