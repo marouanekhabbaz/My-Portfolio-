@@ -26,14 +26,15 @@ header h1{text-align: center;
 }
 header nav{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-
-
+  
 }
 header nav ul{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding-left: 0;
   list-style: none;
 }
@@ -62,7 +63,7 @@ h3 {
   text-align-last: center;
 }
 p, ul , ol{
-font-family: FreeMono, monospace;
+font-family: "Trebuchet MS" ,Tahoma , FreeMono, monospace;
 font-size: 18px; 
  }
 
@@ -73,13 +74,13 @@ form label {
   display: block;
   font-size: 18px;
   margin-bottom: 5px;
-  color: gray;
+  color:#0B1C51;
   font-family: arial;
 }
 textarea {
   height: 4.75rem;
   width: 100%;
-  color: #000;
+  color: #0B1C51;
   font-size: 16px;
   margin-bottom: 20px;
 }
@@ -87,10 +88,11 @@ fieldset{
   padding: 10px 12px;
 	margin: 10px 0 20px 0;
   border-radius: 6px;
+  border:1px solid #073b4c
 }
 
 legend {
-  background-color: #000;
+  background-color: #0B1C51;
   color: #fff;
   padding: 3px 6px;
   border-radius: 6px;
@@ -101,21 +103,21 @@ form button {
   border: 0;
   font-family: Tahoma;
   font-size: 16px;
-  background: #000;
+  background: #0B1C51;
   color: #fff;
   margin: 0 8px 10px 0;
 }
-.bottoncontact {
+form input {
+  display: block;
+  width: 100%;
+}
+/* .bottoncontact {
   color: white;
   height: 20px;
   width: 20px; 
   background-color: #4244a3;
-  border: 1px solid black;
-  margin: 15px;
-  /* padding: 5px 15px;
-  margin: 5px;
-  margin-bottom: 30px */
-} 
+  border: 1px solid black; 
+}   */
 footer{
   text-align: center;
   color: blanchedalmond;
@@ -124,7 +126,13 @@ footer{
   margin: 15px -10px -10px -10px;
   border: 2px solid #03045e;
    }
-
+   a img {
+    width: 20%;
+  }
+   img {
+    width: 100%;
+  }
+  
 @media all and (min-width: 800px) {
   header {
     display: flex;
@@ -146,11 +154,12 @@ footer{
     flex-direction: row;
     margin-bottom: 100px;
   }
-  
+ 
   .item {
     flex: 1;
     margin: 10px;
   }
+
   .cent{
     align-self: center;
   }
