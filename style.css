@@ -128,8 +128,9 @@ footer{
   }
 
   
-  
+ 
 @media all and (min-width: 800px) {
+
   header {
     display: flex;
     justify-content: space-between;
@@ -152,18 +153,30 @@ footer{
   }
  
   .item {
+    flex: 3;
+    margin: 10px;
+  }
+  .item1 {
     flex: 1;
     margin: 10px;
   }
 
-  .cent{
-    align-self: center;
-  }
-	 .profile {
+  .profile {
     width: 100%;
     margin: 10px ;
     border-radius: 50%;
     top: 0;
+  }
+  img {
+    width: 100%;
+    margin: 10px ;
+  }
+   a img {
+    width: 20%;
+  }
+
+  .cent{
+    align-self: center;
   }
 }
 
