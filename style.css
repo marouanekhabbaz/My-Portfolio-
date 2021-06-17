@@ -159,6 +159,12 @@ footer{
   .cent{
     align-self: center;
   }
+	 .profile {
+    width: 100%;
+    margin: 10px ;
+    border-radius: 50%;
+    top: 0;
+  }
 }
 
 
