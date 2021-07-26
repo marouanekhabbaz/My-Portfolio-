@@ -11,6 +11,9 @@ background-color: #caf0f8;
 a{
   text-decoration: none; 
 }
+main{
+  margin: 30px;
+}
 
 header{
   background-color:#0B1C51;
