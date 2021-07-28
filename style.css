@@ -220,11 +220,9 @@ footer{
    
 
     .project{
-      background-color: #fdffff;
-      background: linear-gradient(to right  white, white,  white ,#0096C7 , );
+      /* background-color: #fdffff; */
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0),white,rgba(0, 0, 0, 0));
       display: block;
-    
-      /* width:110% !important; */
       min-height: 100vh;
       box-sizing:border-box !important;
     }
@@ -236,9 +234,9 @@ footer{
   }
   
 
-/* article{
+article{
   position: relative;
-} */
+}
 
 
 
@@ -259,6 +257,7 @@ section {
   margin-bottom: 30px;
   width: 20%;
   border-radius: 50%;
+  
   }
 
 
