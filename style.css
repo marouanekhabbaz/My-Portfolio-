@@ -217,7 +217,17 @@ footer{
       box-sizing:border-box;
     }
     
+   
 
+    .project{
+      background-color: #fdffff;
+      background: linear-gradient(to right  white, white,  white ,#0096C7 , );
+      display: block;
+    
+      /* width:110% !important; */
+      min-height: 100vh;
+      box-sizing:border-box !important;
+    }
 
 @media all and (min-width: 800px) {
 
@@ -366,7 +376,7 @@ hr{
   background: white;
 }
 
-/* hr:after {
+ /* hr:after {
   content: "§";
   display: inline-block;
   position: relative;
@@ -374,7 +384,7 @@ hr{
   font-size: 1.5em;
   padding: 0 0.25em;
   background: #ffffff00;
-} */
+}  */
 
 .style-two {
   border: 0;
@@ -407,17 +417,9 @@ header a:hover{
 
 }
 
-.project{
-  background-color: #fdffff;
-  background: linear-gradient(to right,white , #0096C7  );
-  display: block;
 
-  width:100% !important;
-  /* min-height: 100vh; */
-  box-sizing:border-box !important;
-}
 .card-header{
-  background: linear-gradient(to right , #0096C7 , white );
+  background: linear-gradient(to right  white, white,  white ,#0096C7 , );
 }
 
 .about{
@@ -433,7 +435,9 @@ header a:hover{
   width: 180px;
 }
 .nav-link{
-  color:  #023E8A ;
+  color:  #bb913f;
+  font-size:18px;
+  margin-bottom: 10px;
 }
  
 .btn-primary{
@@ -446,7 +450,8 @@ header a:hover{
 }
 
 .card-text{
-  color:  #023E8A;
+  color:  black;
+  font-size:15px;
 }
 
 .card-title{
