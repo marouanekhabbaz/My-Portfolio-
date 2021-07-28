@@ -6,26 +6,33 @@
   <meta name="viewport" content="width=device-width">
 
     <title>Marouane Khabbaz portofolio</title>
+   
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- I used normalize.css to make sure that the page will look the same at different browsers --> 
+
     <link href="https://yarn.pm/normalize.css" rel= "stylesheet" type="text/css">
     <!-- link to css document --> 
     <link href="style.css" rel="stylesheet" type="text/css"/>
+
+
+</body>
 
 </head>
 <body>
 
 
 <header>
-    <h1>Marouane Khabbaz</h1>
-    <nav>
-        <ul id="menu">
+    <h1 class="title">Marouane Khabbaz</h1>
+    <nav >  
+        <ul  >
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
            
         </ul>
+   
     </nav>
 </header>
 
@@ -36,176 +43,217 @@
  <section id="home">
     <!-- <h2 > Home</h2>  -->
     <img src="images/profile.jpeg" class="profile" alt="My picture" > 
-<div class="group">
-    <div class="item cent">  
-<p>
-    Hi, I’m Marouane I'm located in New York City, and I used to work as a lab technician, 
-    but I'm currently studying software engineering at Thinkful.
-     My goal is to get a job as a full-stack developer, I work with HTML, CSS, Javascript, React.js, Express.js, 
-     test-driven-development using the Mocha library, I’m familiar with using API request using Axios library.
-      I’m passionate about coding I like solving problems and building programs from scratch,
-As a biologist, I learn how to pay attention to details and I improved my analytical thinking skills which helps a lot in programming.
- I’m excited to start my career in Tech so, If you looking to hire a software developer or a partner to help with
-  your project feel free to contact me I'll be so happy to work with you.
-</p>
-</div>
+    <h1>Full Stack Developer </h1> 
+
+<span>
+    My name is Marouane and I'm a Full Stack Developer proficient in HTML, CSS, JavaScript , React Js, Node.js, Express Js, and PostgreSQL.
+     Seeking a Full Stack Web Developer position utilizing React and Express.
+
+</span>
 
 <!-- <div class="item1">   
  <img src="images/profile.jpeg" class="profile" alt="My picture" > 
     </div> -->
+    <div class= " d-flex justify-content-center m-4 ">
+
+    <a href="#portfolio" class="btn btn-primary btn-lg">Learn more</a>
+
+</div>
 
 </div>
 
 </section>
-<hr>
+
+<section class="project">
+ 
+    <h1 id="portfolio">Portfolio</h1>
+
+    <hr>
+
+    <div class="card-columns">
+
+            <div class="card">
+
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                      <li class="nav-item">
+                        <a class="nav-link" target="blank" href="https://front-end-topaz-one.vercel.app/dashboard">Live App</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link " target="blank" href="https://github.com/marouanekhabbaz/restaurant-reservation-for-admin">Source Code</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                <img class="card-img-top"    src="images/reservation.png"  alt="Card image cap">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Restaurant Reservations </h5>
+
+                  <p class="card-text">This is a  reservation system for
+                       fine dining restaurants. The software is used only 
+                       by restaurant personnel when a customer calls to request 
+                       a reservation. At this point,
+                       the customers will not access the system online. 
+                       I Built this app using JavaScript, React, Express,
+                        Node, PostgreSQL, KnexJS,  HTML, CSS, and BootStrap.</p>
+
+                </div>
+
+            </div>  
+         
+
+            <div class="card">
+
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                      <li class="nav-item">
+                        <a class="nav-link" target="blank" href="https://flashcards-project-main-marouanekhabbaz.vercel.app/">Live App</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link " target="blank" href="https://github.com/marouanekhabbaz/Flashcards-Project">Source Code</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                <img class="card-img-top"    src="images/flashcard.png"  alt="Card image cap">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Flashcards</h5>
+                  <p class="card-text">This app is designed to be used by a local school, 
+                      to help students study online. Teachers will use this application to create decks 
+                      of flashcards for the subjects that they teach, and students will study the decks. 
+                      I used JavaScript, React, HTML, and Bootstrap to build this app.</p>
+                </div>
+
+            </div>  
+
+     
+      
+     
+
+            <div class="card">
+
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link "  target="blank" href="https://project-timer-main.vercel.app/"> Live App</a>
+                          </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link"  target="blank" href="https://github.com/marouanekhabbaz/Pomodoro-timer">Source Code</a> 
+                      </li>
+
+                   
+                    </ul>
+                  </div>
+
+                <img class="card-img-top"    src="images/timer.png"  alt="Card image cap">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Pomodoro Timer</h5>
+                  <p class="card-text">
+                    App that implements the Pomodoro technique using a timer 
+                    to break down work into intervals, traditionally 25 minutes. I Built this app using React, HTML, CSS, and BootStrap.</p>
+                 
+                </div>
+
+            </div>  
+
+
+                          <div class="card">
+
+
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                  <li class="nav-item">
+                                    <a class="nav-link"  target="blank" href="https://marouanekhabbaz.github.io/Decoder-Ring/">Live App</a>
+                                  </li>
+            
+                                  <li class="nav-item">
+                                    <a class="nav-link "  target="blank" href="https://github.com/marouanekhabbaz/Decoder-Ring">Source Code</a>
+                                  </li>
+                                </ul>
+                              </div>
+            
+                            
+
+                            <img class="card-img-top"    src="images/decoder.png"  alt="cypher picture">
+                            
+                            <div class="card-body">
+                              <h5 class="card-title"> Decoder Ring </h5>
+                              <p class="card-text">
+                        Decoder-Ring is an application that will help you encode and decode all kinds of messages, it gives three options to work with
+                        the Caesar cipher, Polybius cipher, and the Substitution cipher,  I used JavaScript to build this app,  I learned to install packages and to use the Mocha framework and 
+                        Chai library for testing. 
+                                </p>
+                            </div>
+            
+                        </div>  
+
+
+                    </div>               
+               
+    
+</section>
+
 
 
 <!-- about section --> 
 <section>
-    <h2 id="about">  About me   </h2>
-    <p> I studied Biology, and I worked as a quality control technician and as a medical 
-        laboratory technician, I learned a lot of skills that help me in my professional 
-        and personal life like :
-    </p> 
-    <!-- using unordered list --> 
-    <ul>
-   <li> Independence.</li>
-   <li> Meticulous attention to detail.</li>
-    <li> communication skills.</li>
-   <li> Good teamwork skills..</li>
-   <li> Analytical skills.</li>
-   <li> Time management.</li>
-    </ul> 
-    <p> In college I was introduced to the basics of algorithms and coding, that was my first time 
-        I wrote a line of code. I liked how I can build programs from scratch and how to solve problems,
-         Now I enjoy my learning at Thinkful.
-        After two months in this program, I learned a lot of skills and I'm building apps that fully functioning and that’s awesome,
-         I like to collaborate with other programs that always help to improve the app and save time, I can work with :
-     </P>
-      <ul> 
-         <li>
-            HTML,CSS, Bootstrap.
-           </li>
-           <li>
-            JavaScript, React.
-          </li>
-          <li>
-            Mocha, Axios.
-          </li>
-      </ul>
-      <p> I can build for you user-friendly responsive Websites I'll Provide you with :</p>
-      <ul>
-      <li>  fully Responsive Design your website will look good on Mobile and Desktop</li>
-      <li>  Search Engine Friendly Markup</li>
-      <li>  Offer revisions until 100% satisfaction</li>
-      <li>   Uploading and Configuring your final Website to your domain</li>
-      </ul>
+
+  
+      
+
+    <h1 id="about" class="about">  About me   </h1>
+    <hr class="aboutHr">
+
+    <div class="group">
+
+    <div class="item"> 
+
+
+    <span>
+
+    
+        I started my career as a quality assurance technician, as a biologist,
+         I learned a lot of skills that help me in my professional and personal life like attention to detail, 
+         communication skills, Analytical skills, Time management. In college I was introduced to the basics of algorithms and coding,
+          that was the first time I wrote a line of code. I liked building programs from scratch and solving problems,
    
-   <p> Besides Tech I enjoy video editing and reading history books.  </p>
- 
+</span>
+</div>
+
+<div class="item"> 
+
+<span>
+    
+    Two years ago I started to learn code on my own by writing some HTML, CSS, and JavaScript, and to make sure I have
+    all the stack I need to become a Full Stack Developer I join Tinkful, where I worked alongside senior developers in a fast-paced 
+    learning set, during 6 months of intensive learning I built many apps from scratch using Front End stack like HTML, CSS, Bootstrap, and React
+     and Back End stack like PostgreSQL, Node, Express, and Knex. 
+    </span>
+      
+</div>
+
+</div>
 </section>
 
-<section>
-    
-    <h2 id="portfolio">Portfolio</h2>
 
-    <div class="group">
-
-        <div class="item">
-            <img src="images/dining.jpeg" alt="Restaurant reservation">
-            <h3>Restaurant Reservation App</h3>
-                      <p>
-                          I been hired as a full stack developer at Periodic Tables, a startup that is creating a reservation system for fine dining restaurants.
-                          The software is used only by restaurant personnel when a customer calls to request a reservation. At this point,
-                          the customers will not access the system online.
-                            I Built this app using JavaScript, React, Express, Node, PostgreSQL, KnexJS, Cors , HTML, CSS, and BootStrap.
-                       </p>
-                       
-                       <ul>
-                           <Li> link to the repository on GitHub from <a href="https://github.com/marouanekhabbaz/restaurant-reservation-for-admin" target="blank">here</a></Li>
-                          
-                           <Li> link to the live app <a href= "https://front-end-topaz-one.vercel.app/dashboard" target="blank">here</a></Li> 
-                       </ul>
-                  </div>
-       
-
-        <div class="item">
-            <img src="images/timer.jpeg" alt="coming soon">
-        <h3>Pomodoro Timer</h3>
-                  <p>Built a Web app that implements the Pomodoro technique using a timer to break down work into intervals, traditionally 25 minutes.
-                  I Built this app using React, HTML, CSS, and BootStrap.    
-                  </p>
-                  <ul>
-                      <Li> link to the repository on GitHub from <a href="https://github.com/marouanekhabbaz/Pomodoro-timer" target="blank">here</a></Li>
-                     
-                      <Li> link to the live app <a href= "https://project-timer-main.vercel.app/" target="blank">here</a></Li> 
-                  </ul>
-              </div>
-
-    </div>
-<div class="group">
-
-        <div class="item">
-  <img src="images/school.jpeg" alt="coming soon">
-  <h3>Flashcards </h3>
-            <p>This app is designed to be used by a local school, to help students study online. Teachers will use this application to create decks of 
-                flashcards for the subjects that they teach,
-                 and students will study the decks. I used JavaScript, React, HTML, and Bootstrap to build this app.
-</p>
-            <ul>
-                <Li> link to the repository on GitHub from <a href="https://github.com/marouanekhabbaz/Flashcards-Project" target="blank">here</a></Li>
-                 <Li> link to live server from <a href="https://flashcards-project-main-marouanekhabbaz.vercel.app/" target="blank">here</a></Li>
-            </ul>
-        </div>
-
-
-        <div class="item">
-            <img src="images/cypher.jpeg" alt="cypher picture" >
-            <h3>Decoder Ring App</h3>
-                      <p>Decoder-Ring is an application that will help you encode and decode all kinds of messages, it gives three options to work with
-                          the Caesar cipher, Polybius cipher, and the Substitution cipher,  I used JavaScript to build this app,  I learned to install packages and to use the Mocha framework and 
-                          Chai library for testing. 
-                    </p>
-                          <ul>
-                              <Li> link to the repository on GitHub from<a href="https://github.com/marouanekhabbaz/Decoder-Ring"  target="blank"> here</a></Li>
-                             
-                              <Li> link to the live app <a href="https://marouanekhabbaz.github.io/Decoder-Ring/" target="blank" > here</a></Li> 
-                          </ul>
-                    
-                  </div>
-    
-
-
-    </div>
-    
-</section>
-<hr>
-<section>
-    <h2 id="contact">
+<section class="project">
+    <h1 id="contact">
         Contact
-    </h2>
-    <div class="group">
-    <div class="item cent">
-<P> Network: </P>
-    <ul> 
-    <li><a href="https://www.linkedin.com/in/marouane-khabbaz-246976148/" target="blank"> <img src="images/LI-Logo.png" alt="linkedIn" > </a></li>
-<li><a href="https://github.com/marouanekhabbaz" target="blank"> <img src="images/github.png" alt= "GitHub"  > </a> </li>
-    </ul>
+    </h1>
 
-<P>
-   You can reach me by: 
-</P>
-    <ul>
-        <li> <a href="mailto:marwane.khab@gmail.com" class="bottoncontact">Email</a> </li>
-           <!-- <li> <a href="tel:347-483-0376" class="bottoncontact"> phone</a></li> --> 
-         </ul>
-
-       </div>
-
-    <div class="item">
+    <hr>
+ 
+    <div class="container contact">
 <form action='https://formspree.io/f/xayayeqr' method="post">
     <fieldset>
-        <legend>Contact Us</legend>
+        <!-- <legend>Contact Us</legend> -->
      <label for="username">Name:</label>
     <input
       id="username"
@@ -229,7 +277,7 @@ As a biologist, I learn how to pay attention to details and I improved my analyt
     <button type="submit">Submit</button>
     </fieldset>
 </form>
-    </div>
+    <!-- </div> -->
 </div>  
 </section>
 </article>
@@ -237,9 +285,11 @@ As a biologist, I learn how to pay attention to details and I improved my analyt
 
 <!-- footer section --> 
 <footer>
+  
     <p> © Marouane Khabbaz</p>
 </footer>
 <!-- the script link in the bottom of the page to make the page load faster --> 
-    <script ></script>
-</body>
+<script> 
+</script>
+
 </html>
