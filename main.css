@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+html, body{
+    box-sizing:border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #F7F7F7;
+    scroll-behavior: smooth;
+}
+
+
+.title {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    font-weight: 1000;
+    margin-bottom: 30px;
+    color: #ffffff !important;
+}
+
+@media (max-width:300px){
+    .title{
+        font-size: 30px !important;
+    }
+    /* nav{
+        overflow: hidden !important;
+        display: inline !important;
+        width: 50%;
+    } 
+    .navbar-brand{
+        font-size: small;
+    } */
+}
+
+.lead{
+    color: rgba(27, 67, 50, 1) !important;
+}
+
+h1, h2 , h3 , a , .card-text {
+    font-family: 'Noto Sans', sans-serif !important;
+    color: rgba(27, 67, 50, 1) !important;
+}
+
+h6 {
+    font-family: 'Noto Sans', sans-serif !important;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.padding{
+    padding: 60px;
+}
+
+.padding-cards{
+    padding-top: 100px ;
+    padding-bottom: 60px;
+}
+
+.full-screen {
+    display: block;
+    height:100%;
+    width:100%;
+    box-sizing:border-box;
+    position: relative;
+
+    background:rgba(27, 67, 50, 0.6);
+    background: linear-gradient(45deg, 217, 237, 146, 0,4);
+    background: linear-gradient(90deg, 217, 237, 146,0.9);
+    background: -moz-linear-gradient(45deg, 217, 237, 146, 0.9);
+    background: linear-gradient(45deg, 217, 237, 146, 1);
+
+
+    /* background: rgba(52, 160, 164, 1);
+    background: -webkit-linear-gradient(45deg,52, 160, 164,0,4);
+    background: -o-linear-gradient(45deg,52, 160, 164,0,8);
+    background: -moz-linear-gradient(45deg,52, 160, 164,0,9);
+    background: linear-gradient(45deg,52, 160, 164,0,4); */
+
+    /* background: rgba(219,21,99,1);
+    background: -webkit-linear-gradient(45deg, #d5007d, #e53935);
+    background: -o-linear-gradient(45deg, #d5007d, #e53935);
+    background: -moz-linear-gradient(45deg, #d5007d, #e53935);
+    background: linear-gradient(45deg, #d5007d, #e53935); */
+    color: #ffffff;;
+  }
+  .profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 30%;
+    border-radius: 50%;
+    }
+  @media all and (min-width:1000px) {
+
+    .portfolio{ 
+        margin-top: 60px !important;
+        margin-bottom: 60px !important;
+    }
+
+    .full-screen {
+        display: block;
+        height:100%;
+        width:100%;
+        padding: 60px;
+        padding-top: 90px;
+        padding-left: 120px;
+        min-height: 100vh;
+        box-sizing:border-box;
+        position: relative;
+        background:rgba(27, 67, 50, 0.6);
+        background: linear-gradient(45deg, 217, 237, 146, 0,4);
+        background: linear-gradient(90deg, 217, 237, 146,0.9);
+        background: -moz-linear-gradient(45deg, 217, 237, 146, 0.9);
+        background: linear-gradient(45deg, 217, 237, 146, 1);
+    }
+    .profile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        width: 20%;
+        border-radius: 50%;
+        
+        }
+  }
+
+
+  .custom-shape-divider-bottom-1627582986 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: visible;
+    line-height: 0;
+    margin: 0;
+}
+
+.custom-shape-divider-bottom-1627582986 svg {
+    position: relative;
+    display: block;
+    width: calc(100%);
+    width: calc(100% + 1.3px);
+    height: 160px;
+}
+
+.custom-shape-divider-bottom-1627582986 .shape-fill {
+    fill: #ffffff;
+    height: 100px;
+}
+
+/** For tablet devices **/
+
+
+@media (min-width: 600px) and (max-width: 1000px)   {
+    .custom-shape-divider-bottom-1627582986 svg {
+        width: calc(100% + 1.3px);
+        height: 50px;
+    }
+}
+
+@media  (max-width: 600px) {
+    .custom-shape-divider-bottom-1627582986 svg {
+        width: calc(100% + 1.3px);
+        height: 70px;
+    }
+}
+
+
+/* for homne a the top */
+
+  .custom-shape-divider-top-1627607519 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1627607519 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 80px;
+}
+
+.custom-shape-divider-top-1627607519 .shape-fill {
+    fill: #F7F7F7;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1627607519 svg {
+        width: calc(100% + 1.3px);
+        height: 100px;
+    }
+}
+
+
+
+/* for home at the top */
+
+.custom-shape-divider-bottom-1627606952 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1627606952 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 86px;
+}
+
+.custom-shape-divider-bottom-1627606952 .shape-fill {
+    fill: #F7F7F7;
+}
+
+
+
+
+
+
+/* for projects  at the top */
+
+
+
+.custom-shape-divider-top-1627607057 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1627607057 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 86px;
+}
+
+.custom-shape-divider-top-1627607057 .shape-fill {
+    fill: #F7F7F7;
+}
+
+.btn-light{
+    color: rgba(27, 67, 50, 1) !important;
+    width: 180px;
+}
+
+
+
+
+ .custom-shape-divider-bottom-1627623714 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1627623714 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1627623714 .shape-fill {
+    fill: #F7F7F7;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1627623714 svg {
+        width: calc(100% + 1.3px);
+        height: 60px;
+    }
+}
+
+
+
+
+.custom-shape-divider-top-1627624082 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1627624082 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 156px;
+}
+
+.custom-shape-divider-top-1627624082 .shape-fill {
+    fill: #F7F7F7;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1627624082 svg {
+        width: calc(100% + 1.3px);
+        height: 60px;
+    }
+ 
+    
+}
+
+
+footer{
+    text-align: center;
+    color: rgba(27, 67, 50, 1) ;
+    background-color:#F7F7F7;
+    padding: 10px;
+    border-top:rgba(27, 67, 50, 0.6)  solid 10px;
+     }
+
+
+
+   

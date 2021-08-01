@@ -1,125 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-  <!-- to make the page look the same in all devices --> 
-  <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
 
-    <title>Marouane Khabbaz portofolio</title>
-   
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- I used normalize.css to make sure that the page will look the same at different browsers --> 
-
-    <link href="https://yarn.pm/normalize.css" rel= "stylesheet" type="text/css">
-    <!-- link to css document --> 
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-
-
-</body>
-
-</head>
-<body>
-
-
-<header>
-    <h1 class="title">Marouane Khabbaz</h1>
-    <nav >  
-        <ul  >
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-           
-        </ul>
-   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <link href="card.css" rel="stylesheet" type="text/css"/>
+    <link href="contact.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    rel="stylesheet">
+    <title>Marouane Khabbaz</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light fixed-top justify-content-between">
+      <a class="navbar-brand" href="#home">Marouane Khabbaz</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link " href="#contact">Contact</a>
+        </div>
+      </div>
     </nav>
-</header>
 
 
-<!-- the main section will contains all the important content of the page --> 
-<main>
-<article>
- <section id="home">
-    <!-- <h2 > Home</h2>  -->
-    <img src="images/profile.jpeg" class="profile" alt="My picture" > 
-    <h1>Full Stack Developer </h1> 
+    <section id="home"> 
+      <div class="full-screen padding" >
 
-<span>
-    My name is Marouane and I'm a Full Stack Developer proficient in HTML, CSS, JavaScript , React Js, Node.js, Express Js, and PostgreSQL.
-     Seeking a Full Stack Web Developer position utilizing React and Express.
+        <!-- <div class="custom-shape-divider-top-1627607519">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+          </svg>
+      </div> -->
 
-</span>
+      <div class="custom-shape-divider-top-1627754936">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+  
+        <img src="images/profile.jpeg" class="profile" alt="My picture" > 
+        <h1 class="title ">Full Stack Developer </h1> 
+        <p >
+          My name is Marouane, I’m a full-stack developer in New York. I have experience In building full stack applications using 
+          JavaScript and React for the Front-End and Node and Express Js for the Back-End,
+           I recently completed the Thinkful Engineering program, where I learned industry best practices and web development 
+           standards during the program I built many applications you can check them out below. 
 
-<!-- <div class="item1">   
- <img src="images/profile.jpeg" class="profile" alt="My picture" > 
-    </div> -->
-    <div class= " d-flex justify-content-center m-4 ">
+        </p>
+        <p>
+          After getting my Bachelor’s degree in  Biotechnology, 
+          I worked as a quality assurance technician, my mission was to ensure 
+          compliance to laws and quality norms, as well as company standards and 
+          specifications. As a Biologist and QA technician, I learned to be precise 
+          and pay attention to details.
+        </p>
 
-    <a href="#portfolio" class="btn btn-primary btn-lg">Learn more</a>
+        <div class= " d-flex justify-content-center m-4 ">
+          <a class="btn btn-light btn-lg" href="#portfolio">Learn more </a>
+        </div>
+   
+        <div class="custom-shape-divider-bottom-1627754737">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+          </svg>
+      </div>
+  
+    <!-- <div class="custom-shape-divider-bottom-1627606952">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+      </svg> -->
+  </div>
 
-</div>
 
-</div>
+  
+    </div> 
 
-</section>
 
-<section class="project">
- 
-    <h1 id="portfolio">Portfolio</h1>
+   </section  >
 
-    <hr>
 
-    <div class="card-columns">
+    <section id="portfolio" class="full-screen padding-cards"> 
 
-            <div class="card">
+        <!-- <div class="custom-shape-divider-top-1627607057">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+          </svg>
+        </div> -->
+          
+        <div class="custom-shape-divider-top-1627754936">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+          </svg>
+      </div>
 
+      <div class="container-fluid"> 
+
+        <div class="card-group ">
+          <div class="card">
                 <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
                       <li class="nav-item">
                         <a class="nav-link" target="blank" href="https://front-end-topaz-one.vercel.app/dashboard">Live App</a>
                       </li>
-
                       <li class="nav-item">
                         <a class="nav-link " target="blank" href="https://github.com/marouanekhabbaz/restaurant-reservation-for-admin">Source Code</a>
                       </li>
                     </ul>
                   </div>
-
                 <img class="card-img-top"    src="images/reservation.png"  alt="Card image cap">
-                
                 <div class="card-body">
                   <h5 class="card-title">Restaurant Reservations </h5>
-
+        
                   <p class="card-text">This is a  reservation system for
-                       fine dining restaurants. The software is used only 
-                       by restaurant personnel when a customer calls to request 
-                       a reservation. At this point,
-                       the customers will not access the system online. 
-                       I Built this app using JavaScript, React, Express,
+                      fine dining restaurants. The software is used only 
+                      by restaurant personnel when a customer calls to request 
+                      a reservation. At this point,
+                      the customers will not access the system online. 
+                      I Built this app using JavaScript, React, Express,
                         Node, PostgreSQL, KnexJS,  HTML, CSS, and BootStrap.</p>
-
+        
                 </div>
-
-            </div>  
-         
-
+              </div> 
+              
             <div class="card">
-
                 <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
                       <li class="nav-item">
                         <a class="nav-link" target="blank" href="https://flashcards-project-main-marouanekhabbaz.vercel.app/">Live App</a>
                       </li>
-
                       <li class="nav-item">
                         <a class="nav-link " target="blank" href="https://github.com/marouanekhabbaz/Flashcards-Project">Source Code</a>
                       </li>
                     </ul>
                   </div>
-
                 <img class="card-img-top"    src="images/flashcard.png"  alt="Card image cap">
-                
                 <div class="card-body">
                   <h5 class="card-title">Flashcards</h5>
                   <p class="card-text">This app is designed to be used by a local school, 
@@ -127,27 +152,17 @@
                       of flashcards for the subjects that they teach, and students will study the decks. 
                       I used JavaScript, React, HTML, and Bootstrap to build this app.</p>
                 </div>
-
             </div>  
 
-     
-      
-     
-
             <div class="card">
-
                 <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
-
                         <li class="nav-item">
                             <a class="nav-link "  target="blank" href="https://project-timer-main.vercel.app/"> Live App</a>
                           </li>
-
                       <li class="nav-item">
                         <a class="nav-link"  target="blank" href="https://github.com/marouanekhabbaz/Pomodoro-timer">Source Code</a> 
                       </li>
-
-                   
                     </ul>
                   </div>
 
@@ -158,204 +173,272 @@
                   <p class="card-text">
                     App that implements the Pomodoro technique using a timer 
                     to break down work into intervals, traditionally 25 minutes. I Built this app using React, HTML, CSS, and BootStrap.</p>
-                 
+                
                 </div>
-
             </div>  
 
-        </div>    
+      </div>    
 
+      </div>
+
+      <div class="container-fluid margin"> 
+
+        <div class="card-group ">
+
+          <div class="card">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link"  target="blank" href="https://stormy-depths-11883.herokuapp.com/movies">Live App</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link "  target="blank" href="https://github.com/marouanekhabbaz/backend-WeLoveMovies">Source Code</a>
+                  </li>
+                </ul>
+              </div>
+            <img class="card-img-top"    src="images/home.png"  alt="cypher picture">
+            <div class="card-body">
+              <h5 class="card-title"> WeLoveMovies API </h5>
+              <p class="card-text">
+                I was in charge of setting up the database and building up a REST API with specific routes so that users can list, 
+                read, create, update or delete data about movies, theaters, and reviews. I used Postgres, 
+                Express Js, and Knex to build this app.   
+                </p>
+            </div>
+        </div>
         
+         
+        <div class="card">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link"  target="blank" href="https://marouanekhabbaz.github.io/Decoder-Ring/">Live App</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link "  target="blank" href="https://github.com/marouanekhabbaz/Decoder-Ring">Source Code</a>
+                  </li>
+                </ul>
+              </div>
+            <img class="card-img-top"    src="images/decoder.png"  alt="cypher picture">
+            <div class="card-body">
+              <h5 class="card-title"> Decoder Ring </h5>
+              <p class="card-text">
+                Decoder-Ring is an application that will help you encode and decode all kinds of messages, it gives three options to work with
+                the Caesar cipher, Polybius cipher, and the Substitution cipher,  I used JavaScript to build this app,  I learned to install packages and to use the Mocha framework and 
+                Chai library for testing. 
+                </p>
+            </div>
+        </div>  
 
-        
-                    </div>  
-                    
-                    <div class="card-columns">
+    <div class="card">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                <a class="nav-link "  target="blank" href="https://github.com/marouanekhabbaz/GrubDash-Back-end">Source Code</a>
+              </li>
+            </ul>
+          </div>
+        <img class="card-img-top"    src="images/grubdash.png"  alt="cypher picture">
+        <div class="card-body">
+          <h5 class="card-title"> GrubDash API </h5>
+          <p class="card-text">
+            As another developer works on the design and frontend experience, 
+            I have been tasked with setting up an API and building out specific routes so that the 
+            frontend developers can demo some initial design ideas.
+            </p>
+            </p>
+        </div>
 
-                    
-                    <div class="card">
+    </div>
 
-
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                              <li class="nav-item">
-                                <a class="nav-link"  target="blank" href="https://stormy-depths-11883.herokuapp.com/movies">Live App</a>
-                              </li>
-        
-                              <li class="nav-item">
-                                <a class="nav-link "  target="blank" href="https://github.com/marouanekhabbaz/backend-WeLoveMovies">Source Code</a>
-                              </li>
-                            </ul>
-                          </div>
-                    
-                        <img class="card-img-top"    src="images/home.png"  alt="cypher picture">
-                        
-                        <div class="card-body">
-                          <h5 class="card-title"> WeLoveMovies API </h5>
-                          <p class="card-text">
-                            I was in charge of setting up the database and building up a REST API with specific routes so that users can list, 
-                            read, create, update or delete data about movies, theaters, and reviews. I used Postgres, 
-                            Express Js, and Knex to build this app.   
-        
-                            </p>
-                        </div>
-        
-                    </div>
-                    
-                    
-                    
-                    <div class="card">
-
-
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                              <li class="nav-item">
-                                <a class="nav-link"  target="blank" href="https://marouanekhabbaz.github.io/Decoder-Ring/">Live App</a>
-                              </li>
-        
-                              <li class="nav-item">
-                                <a class="nav-link "  target="blank" href="https://github.com/marouanekhabbaz/Decoder-Ring">Source Code</a>
-                              </li>
-                            </ul>
-                          </div>
-        
-                    
-                        <img class="card-img-top"    src="images/decoder.png"  alt="cypher picture">
-                        
-                        <div class="card-body">
-                          <h5 class="card-title"> Decoder Ring </h5>
-                          <p class="card-text">
-                    Decoder-Ring is an application that will help you encode and decode all kinds of messages, it gives three options to work with
-                    the Caesar cipher, Polybius cipher, and the Substitution cipher,  I used JavaScript to build this app,  I learned to install packages and to use the Mocha framework and 
-                    Chai library for testing. 
-                            </p>
-                        </div>
-        
-                    </div>  
-
-                    <div class="card">
-
-                    <div class="card-header">
-                        <ul class="nav nav-tabs card-header-tabs">
-                          <!-- <li class="nav-item">
-                            <a class="nav-link"  target="blank" href="https://stormy-depths-11883.herokuapp.com/movies">Live App</a>
-                          </li> -->
-    
-                          <li class="nav-item">
-                            <a class="nav-link "  target="blank" href="https://github.com/marouanekhabbaz/GrubDash-Back-end">Source Code</a>
-                          </li>
-                        </ul>
-                      </div>
-                
-                    <img class="card-img-top"    src="images/grubdash.png"  alt="cypher picture">
-                    
-                    <div class="card-body">
-                      <h5 class="card-title"> GrubDash API </h5>
-                      <p class="card-text">
-                        As another developer works on the design and frontend experience, 
-                        I have been tasked with setting up an API and building out specific routes so that the 
-                        frontend developers can demo some initial design ideas.
-                        </p>
-    
-                        </p>
-                    </div>
-    
-                </div>
-                    
-                </div>    
-    
-</section>
+          </div>
+      </div>
 
 
 
-<!-- about section --> 
-<section>
+        <div class="custom-shape-divider-bottom-1627754737">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+          </svg>
+      </div>
 
-  
+    </div>
       
 
-    <h1 id="about" class="about">  About me   </h1>
-    <hr class="aboutHr">
+  </section>
 
-    <div class="group">
+   <section id="about" class="full-screen">
 
-    <div class="item"> 
+    <div class="custom-shape-divider-top-1627754936">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+  </div>
+
+      </div>
+        <div class="container-fluid"> 
+        <div class="jumbotron">
+          <h1 class="display-4">About</h1>
+          <p class="lead">
+            I started my career as a quality assurance technician, as a biologist,
+            I learned a lot of skills that help me in my professional and personal life like attention to detail, 
+            communication skills, Analytical skills, Time management. In college I was introduced to the basics of algorithms and coding,
+            that was the first time I wrote a line of code. I liked building programs from scratch and solving problems,
+          </p>
+          <hr class="my-4">
+          <p class="lead">
+            Two years ago I started to learn code on my own by writing some HTML, CSS, and JavaScript, and to make sure I have
+        all the stack I need to become a Full Stack Developer I join Tinkful, where I worked alongside senior developers in a fast-paced 
+        learning set, during 6 months of intensive learning I built many apps from scratch using Front End stack like HTML, CSS, Bootstrap, and React
+        and Back End stack like PostgreSQL, Node, Express, and Knex. 
+          </p>
+        </div>
+      </div>
+
+      <div class="custom-shape-divider-bottom-1627754737">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+        </svg>
+    </div>
 
 
-    <span>
 
-    
-        I started my career as a quality assurance technician, as a biologist,
-         I learned a lot of skills that help me in my professional and personal life like attention to detail, 
-         communication skills, Analytical skills, Time management. In college I was introduced to the basics of algorithms and coding,
-          that was the first time I wrote a line of code. I liked building programs from scratch and solving problems,
-   
-</span>
-</div>
+    </div>
 
-<div class="item"> 
+  </section>
 
-<span>
-    
-    Two years ago I started to learn code on my own by writing some HTML, CSS, and JavaScript, and to make sure I have
-    all the stack I need to become a Full Stack Developer I join Tinkful, where I worked alongside senior developers in a fast-paced 
-    learning set, during 6 months of intensive learning I built many apps from scratch using Front End stack like HTML, CSS, Bootstrap, and React
-     and Back End stack like PostgreSQL, Node, Express, and Knex. 
-    </span>
-      
-</div>
+	<section class="full-screen" id="contact">
 
-</div>
-</section>
+    <div class="custom-shape-divider-top-1627754936">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+  </div>
+
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters">
+							<div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Get in touch</h3>
 
 
-<section class="project">
-    <h1 id="contact">
-        Contact
-    </h1>
+                  <form action='https://formspree.io/f/xayayeqr' method="post">
+                    <div class="wrap-input100 " >
+                      <input class="input100" id="name" type="text" name="name" placeholder="Full Name" required>
+                      <label class="label-input100" for="name">
+                        <span class="material-icons">
+                          face
+                          </span>
+                          
+                      </label>
+                    </div>
+            
+                    <div class="wrap-input100 "  >
+                      <input class="input100" id="email" type="text" name="email" placeholder="Email" required>
+                      <label class="label-input100" for="email">
+                        <span class="material-icons">
+                          email
+                          </span>
+                      </label>
+                    </div>
+            
+                    <div class="wrap-input100 ">
+                      <input class="input100" id="phone" type="text" name="phone" placeholder="Phone" >
+                      <label class="label-input100" for="phone">
+                        <span class="material-icons">
+                          phone_in_talk
+                          </span>
+                      </label>
+                    </div>
+            
+                    <div class="wrap-input100"  >
+                      <textarea class="input100" name="message" placeholder="Your message..." required ></textarea>
+                    </div>
 
-    <hr>
+                   
+                        <button type="submit" class="btn btn-light btn-lg">
+                          Submit
+                        </button>
+
+                      
+                  </form>
+
+
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-5 d-flex align-items-stretch">
+								<div class="info-wrap bg-pink w-100 p-md-5 p-4">
+									<h3>Let's get in touch</h3>
+									<p class="mb-4">We're open for any suggestion or just to have a chat</p>
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        		<a href="#"> <span class="fa fa-map-marker" style="font-size:20px"></span></a>	
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Location:</span> New York NY 10016</p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+                      <a href="mailto:marwane.khab@gmail.com">	<span class="fa fa-paper-plane " style="font-size:20px"></span> </a>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><a href="mailto:marwane.khab@gmail.com"> marwane.khab@gmail.com</a></p>
+					          </div>
+				          </div>
+
+                  	<div class="dbox w-100 d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <a href="https://github.com/marouanekhabbaz"> <i class="fa fa-linkedin" aria-hidden="true" style="font-size:20px"></i> </a>
+                  </div>
+                  <div class="text pl-3">
+                    <p> <a href="#">LinkedIn</a></p>
+                  </div>
+                    </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+                      <a href="https://github.com/marouanekhabbaz"> <i class="fa fa-github" style="font-size:20px"></i> </a>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p> <a href="#">Github</a></p>
+					          </div>
+				          </div>
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+  </div>
+
+	</section>
+
+
  
-    <div class="container contact">
-<form action='https://formspree.io/f/xayayeqr' method="post">
-    <fieldset>
-        <!-- <legend>Contact Us</legend> -->
-     <label for="username">Name:</label>
-    <input
-      id="username"
-      type="text"
-      name="name"
-      required
-    /><br>
-    <label for="E-mail">E-mail:</label>
-    <input
-      id="E-mail"
-      type="text"
-      name="E-mail"
-      required
-    /><br>
-    <label for="form-message">Your message:</label>
-    <textarea
-      id="form-message"
-      name="message"
-      required
-    ></textarea><br>
-    <button type="submit">Submit</button>
-    </fieldset>
-</form>
-    <!-- </div> -->
-</div>  
-</section>
-</article>
-</main>
-
-<!-- footer section --> 
-<footer>
   
-    <p> © Marouane Khabbaz</p>
-</footer>
+<!-- footer section --> 
+    <footer>
+      <h6> © Marouane Khabbaz</h6>
+    </footer>
 <!-- the script link in the bottom of the page to make the page load faster --> 
-<script> 
-</script>
 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  </body>
 </html>
+
