@@ -19,25 +19,46 @@ html, body{
     color: #ffffff !important;
 }
 
+.btn-lg{
+    color: rgba(27, 67, 50, 1) !important;
+    width: 250px !important;
+}
+
 @media (max-width:300px){
     .title{
         font-size: 30px !important;
+        font-weight: 700;
     }
     /* nav{
         overflow: hidden !important;
         display: inline !important;
         width: 50%;
-    } 
+    }  */
     .navbar-brand{
         font-size: small;
-    } */
+    }
+
+    .btn-lg{
+        color: rgba(27, 67, 50, 1) !important;
+        width: 80px !important;
+        overflow: scroll;
+        font-size: small;
+    }
+    .info-wrap, .full-screen {
+        overflow: scroll;
+    }
+
+
 }
+
+
+
 
 .lead{
     color: rgba(27, 67, 50, 1) !important;
 }
 
-h1, h2 , h3 , a , .card-text {
+h1, h2 , h3 , a , .card-text, .mb-4 {
     font-family: 'Noto Sans', sans-serif !important;
     color: rgba(27, 67, 50, 1) !important;
 }
@@ -127,6 +148,11 @@ p{
         width: 20%;
         border-radius: 50%;
         
+        }
+
+        .btn{
+            width: 120px;
+            color: rgba(27, 67, 50, 1) !important;
         }
   }
 
@@ -256,10 +282,7 @@ p{
     fill: #F7F7F7;
 }
 
-.btn-light{
-    color: rgba(27, 67, 50, 1) !important;
-    width: 180px;
-}
+
 
 
 
