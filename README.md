@@ -1,6 +1,6 @@
 # Portfolio-MAROUANE KHABBAZ 
 # Links 
-(web site)[https://marouanekhabbaz.com]
+https://marouanekhabbaz.com
 
 # Technology 
 
