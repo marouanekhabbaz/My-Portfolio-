@@ -1,6 +1,6 @@
 # Portfolio-MAROUANE KHABBAZ 
 # Links 
-https://marouanekhabbaz.github.io/My-Portfolio-/
+marouanekhabbaz.com
 
 # Technology 
 
